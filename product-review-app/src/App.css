@@ -1,0 +1,24 @@
+
+/* Card Styles */
+ .card {
+  padding: 2em;
+  background-color: white; /* White background for cards */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(108, 70, 70, 0.1); /* Subtle shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+  background-color: orange;
+ 
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 8px 12px rgba(84, 82, 110, 0.2); /* Enhanced shadow on hover */
+  cursor: pointer; 
+}
+.fixed-dimensions {
+  width: 800px; /* Set your desired width */
+  height: 600px; /* Set your desired height */
+  overflow: auto; /* Add scrolling if content overflows */
+  margin: 0 auto; /* Center the container */
+}
+

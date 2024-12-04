@@ -1,0 +1,44 @@
+/* index.css */
+
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Set the root element's width and center it */
+#root {
+  max-width: 100%; /* Set the maximum width to 600px */
+  margin: 20px; /* Center the container */
+  padding: 2rem; /* Add padding around the container */
+  background-color: #f7fafc; /* Light gray background */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Typography styles */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  color: #333; /* Default text color */
+  line-height: 1.5; /* Improve readability */
+}
+.card {
+  padding: 2em;
+  background-color: white; /* White background for cards */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(108, 70, 70, 0.1); /* Subtle shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+  background-color: rgb(143, 139, 132);
+ 
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 8px 12px rgba(84, 82, 110, 0.2); /* Enhanced shadow on hover */
+  cursor: pointer; 
+}
+
+/* Tailwind CSS Utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
